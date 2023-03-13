@@ -1,0 +1,29 @@
+/**
+ * description :- main css
+ * created_at  :- 07/03/2023 15:03:02
+ */
+
+@import "./base.css";
+
+/**
+ * description :- body
+ * created_at  :- 07/03/2023 15:03:45
+ */
+
+body {
+    padding: 20px;
+    margin: 0;
+}
+.color-group li {
+    cursor: pointer;
+}
+
+.color-group li > span {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.color-group li:hover > span {
+    visibility: visible;
+    opacity: 1;
+}
